@@ -1,10 +1,10 @@
 package com.chandu.aws.cicd.example;
 
-import org.springframework.stereotype.Repository;
-
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import org.springframework.stereotype.Repository;
 
 @Repository
 public class OrderDao {
